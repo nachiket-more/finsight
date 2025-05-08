@@ -25,4 +25,26 @@ public class ExpenseController {
     public List<Expense> getAllExpenses() {
         return expenseRepository.findAll();
     }
+
+    // Update expense by id
+    @PutMapping("/expenses/{id}")
+    public Expense updateExpense(@PathVariable Long id, @RequestBody Expense expenseDetails) {
+        Expense expense = expenseRepository.findById(id)
+                .orElseThrow(() -> new RuntimeException("Expense not found"));
+        expense.setTitle(expenseDetails.getTitle());
+        expense.setAmount(expenseDetails.getAmount());
+        expense.setCategory(expenseDetails.getCategory());
+        expense.setDate(expenseDetails.getDate());
+        return expenseRepository.save(expense);
+    }
+
+    // Delete expense by id
+    @DeleteMapping("/expenses/{id}")
+    public void deleteExpense(@PathVariable Long id) {
+        Expense expense = expenseRepository.findById(id)
+                .orElseThrow(() -> new RuntimeException("Expense not found"));
+        expenseRepository.delete(expense);
+    }
+
+
 }

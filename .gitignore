@@ -1,10 +1,23 @@
-HELP.md
-target/
+# Maven target folder
+/target/
+
+# Maven Wrapper jar (keep it tracked)
 !.mvn/wrapper/maven-wrapper.jar
+
+# Maven Wrapper folder (keep other .mvn files tracked)
+/.mvn/wrapper/
+
+# Ignore everything else in .mvn except wrapper files
+.mvn/**/*
+!.mvn/wrapper/
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+
+# Exclude build output folders in src
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-### STS ###
+# STS (Spring Tool Suite) files
 .apt_generated
 .classpath
 .factorypath
@@ -13,13 +26,14 @@ target/
 .springBeans
 .sts4-cache
 
-### IntelliJ IDEA ###
-.idea
+# IntelliJ IDEA
+.idea/
 *.iws
 *.iml
 *.ipr
+/out/
 
-### NetBeans ###
+# NetBeans
 /nbproject/private/
 /nbbuild/
 /dist/
@@ -29,5 +43,16 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-### VS Code ###
+# VS Code settings folder
 .vscode/
+
+# Logs
+*.log
+logs/
+
+# Environment variables files
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
