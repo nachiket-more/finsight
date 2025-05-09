@@ -15,4 +15,14 @@ public class Expense {
     private Double amount;
     private String category;
     private LocalDate date;
+
+    public Expense() {}
+
+    public Expense(Long id, String title, Double amount, String category, LocalDate date) {
+        this.id = id;
+        this.title = title;
+        this.amount = amount;
+        this.category = category;
+        this.date = date;
+    }
 }
