@@ -1,0 +1,21 @@
+[
+  { "title": "New Year Brunch", "amount": 22.0, "category": "Food", "date": "2025-01-01" },
+  { "title": "Bus Pass Renewal", "amount": 50.0, "category": "Transport", "date": "2025-01-03" },
+  { "title": "Gas Bill", "amount": 55.0, "category": "Utilities", "date": "2025-01-10" },
+  { "title": "Museum Visit", "amount": 12.0, "category": "Entertainment", "date": "2025-01-15" },
+
+  { "title": "Valentine Dinner", "amount": 70.0, "category": "Food", "date": "2025-02-14" },
+  { "title": "Metro Card Top-Up", "amount": 25.0, "category": "Transport", "date": "2025-02-18" },
+  { "title": "Electricity Bill", "amount": 65.0, "category": "Utilities", "date": "2025-02-20" },
+  { "title": "Movie Subscription", "amount": 10.0, "category": "Entertainment", "date": "2025-02-25" },
+
+  { "title": "Weekly Groceries", "amount": 85.0, "category": "Food", "date": "2025-03-07" },
+  { "title": "Taxi Ride", "amount": 18.0, "category": "Transport", "date": "2025-03-12" },
+  { "title": "Water Bill", "amount": 32.0, "category": "Utilities", "date": "2025-03-18" },
+  { "title": "Streaming Concert", "amount": 25.0, "category": "Entertainment", "date": "2025-03-22" },
+
+  { "title": "Dinner Out", "amount": 48.0, "category": "Food", "date": "2025-04-05" },
+  { "title": "Train to Work", "amount": 6.5, "category": "Transport", "date": "2025-04-08" },
+  { "title": "Internet Bill", "amount": 45.0, "category": "Utilities", "date": "2025-04-15" },
+  { "title": "Comedy Show", "amount": 35.0, "category": "Entertainment", "date": "2025-04-20" }
+]
