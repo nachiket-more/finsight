@@ -1,5 +1,12 @@
+import React from 'react';
+import Dashboard from './pages/Dashboard';
+
 function App() {
-  return <div>Finsight Frontend</div>;
+  return (
+    <div>
+      <Dashboard />
+    </div>
+  );
 }
 
 export default App;
