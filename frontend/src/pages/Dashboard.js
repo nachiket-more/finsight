@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../components/Header';
+import ExpenseList from '../components/ExpenseList';
 
 const Dashboard = () => {
   return (
@@ -7,7 +8,7 @@ const Dashboard = () => {
       <Header />
       <main style={styles.main}>
         <h2>Dashboard</h2>
-        <p>This is where expense data will be shown.</p>
+        <ExpenseList />
       </main>
     </div>
   );

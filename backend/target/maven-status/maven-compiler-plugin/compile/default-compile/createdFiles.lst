@@ -1,10 +1,12 @@
+com\finsight\app\config\CorsConfig$1.class
+com\finsight\app\config\JacksonConfig.class
+com\finsight\app\services\ExpenseSummaryService.class
+com\finsight\app\controllers\ExpenseController.class
+com\finsight\app\config\DataInitializer.class
 com\finsight\app\FinSightApplication.class
 com\finsight\app\config\DataInitializer$1.class
 com\finsight\app\controllers\ExpenseSummaryController.class
 com\finsight\app\repositories\ExpenseRepository.class
-com\finsight\app\config\JacksonConfig.class
 com\finsight\app\services\ExpenseService.class
 com\finsight\app\models\Expense.class
-com\finsight\app\services\ExpenseSummaryService.class
-com\finsight\app\controllers\ExpenseController.class
-com\finsight\app\config\DataInitializer.class
+com\finsight\app\config\CorsConfig.class
