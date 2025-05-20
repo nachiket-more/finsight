@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { getExpenses } from '../services/api';
 
-const ExpenseList = () => {
+const ExpenseList = ({ refreshTrigger }) => {
   const [expenses, setExpenses] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -16,7 +16,7 @@ const ExpenseList = () => {
         setError(err.message);
         setLoading(false);
       });
-  }, []);
+  }, [refreshTrigger]);
 
   if (loading) return <p>Loading expenses...</p>;
   if (error) return <p>Error: {error}</p>;
