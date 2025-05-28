@@ -1,4 +1,5 @@
-const BASE_URL = 'http://localhost:8080/api/expenses';
+const BASE_URL = process.env.REACT_APP_BASE_URL;
+
 
 function formatMonthYear(str) {
   const [year, month] = str.split('-').map(Number);
