@@ -2,6 +2,7 @@
 
 
 A Spring Boot backend API for managing and summarizing personal expenses.
+Live: https://finsight-frontend.onrender.com/
 
 
 ---
